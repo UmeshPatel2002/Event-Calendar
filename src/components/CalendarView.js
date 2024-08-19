@@ -119,6 +119,7 @@ const CalendarView = () => {
           startAccessor="start"
           endAccessor="end"
           onSelectSlot={handleSelectSlot}
+          longPressThreshold={10000}
           onSelectEvent={handleSelectEvent}
           style={{ height: '80vh' }}
         />
